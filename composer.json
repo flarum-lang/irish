@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/irish",
+	"description": "Irish Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Irish language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/irish",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"ga-locale",
-		"irish-locale",
-		"irish"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/irish",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/irish/issues",
+		"forum": "https://discuss.flarum.org/d/40187",
 		"source": "https://github.com/flarum-lang/irish"
 	},
 	"require": {
 		"flarum/core": "^1.6"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Irish",
 			"category": "language",
@@ -33,13 +30,7 @@
 		},
 		"flarum-locale": {
 			"code": "ga",
-			"title": "Irish"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Gaeilge"
 		}
 	}
 }
